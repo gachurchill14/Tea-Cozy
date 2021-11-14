@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/**Navigation sectio**/
+
+
+.navbar {
+    display: inline-flex;
+    border-bottom: 1px solid seashell;
+    width: 1200px;
+    position: sticky;
+}
+
+#nav-logo {
+    width: 100%;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+    }
+
+#nav-container {
+    height: 69px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    }
+
+.nav-item {
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+#container1 {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    align-items: center;
+    margin: auto;
+}
+
+#container1 .title {
+    background-color: black;
+    width: 1200px;
+    padding: 10px;
+}
+
+#container1 .subtitle {
+    background-color: black;
+    width: 1200px;
+    padding: 10px;
+}
+
+
+
+#titles2 {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.title {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    width: 1000px;
+}
+
+.subtitle {
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 1000px;
+}
+
+#figures {
+    width: 1000px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    margin-bottom: 30px;
+}
+
+/**Locations section**/
+
+#container3 {
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    align-items: flex-start;
+    }
+
+#title3 {
+    width: 1200px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+#locations {
+    display: inline-flex;
+    width: 980px;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#location {
+    width: 300px;
+    height: 200;
+    box-sizing: border-box;
+    margin-left: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    }
+
+#location h3 {
+    margin: 20px;
+}
+
+#location h4 {
+    margin: 20px;
+}
+
+#container4 {
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#container4 h1 {
+    margin: 20px;
+}
+
+#container4 h5 {
+    margin: 20px;
+}
+
+#left {
+    text-align: left;
+    margin: 20px;
+}
